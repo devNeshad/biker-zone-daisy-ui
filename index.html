@@ -43,7 +43,7 @@
     </style>
 </head>
 
-<body class="font-poppins bg-white h-screen">
+<body class="font-poppins bg-white ">
     <header class=" md:container md:mx-auto">
         <!-- Nav Bar -->
         <nav>
@@ -65,7 +65,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="btn btn-ghost text-2xl lg:text-4xl">Biker Zone</a>
+                    <a class="btn btn-ghost text-2xl lg:text-4xl  text-black">Biker Zone</a>
                 </div>
                 <div class="navbar-center hidden lg:flex">
                     <ul class="menu text-base menu-horizontal px-1">
@@ -177,21 +177,34 @@
     </header>
     <main class=" md:container md:mx-auto">
         <!-- --------------------Featured baike--------------------- -->
-        <section>
+        <section class="my-24">
+            <h2 class="text-5xl text-black font-semibold text-center">Fetured Bikes In This Year</h2>
+            <p class=" text-center pt-4 text-bike-primary">Best bike collection</p>
+            <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 pt-8  ">
+                <div class="flex justify-center ">
+                    <img src="images/others/feature-bike.png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img src="images/others/feature-bike.png" alt="">
+                </div>
+                <div class="flex justify-center">
+                    <img src="images/others/feature-bike.png" alt="">
+                </div>
+            </div>
 
 
         </section>
         <!-- ----------------------------Ltest baike-------------------------------------- -->
-        <section class="my-24 ">
-            <h3 class="text-5xl mb-12 font-semibold text-center">latest Baike</h3>
+        <section class="my-24  ">
+            <h3 class="text-5xl mb-12 font-semibold text-center  text-black">latest Baike</h3>
             <div class=" gap-5 grid grid-cols-1 md:grid-col-2 lg:grid-cols-3">
                 <!-- -------------------------Frist Card----------------------------------- -->
-                <div class="card bg-base-100 shadow-xl">
+                <div class="card  bg-white shadow-xl">
                     <figure>
                         <img src="/images/others/latest1.png " alt="Shoes" />
                     </figure>
                     <div class="card-body">
-                        <h2 class="card-title text-3xl">Ducati XDIAVEL S-73</h2>
+                        <h2 class="card-title text-3xl  text-black">Ducati XDIAVEL S-73</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
                             id nisi lectus at.</p>
                         <div class="card-actions ">
@@ -199,39 +212,42 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <!-- -------------------------second Card----------------------------------- -->
-                <div class="card bg-base-100 shadow-xl">
-                    <figure>
-                        <img src="/images/others/latest2.png " alt="Shoes" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title text-3xl">Motorcycles & Scooters</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
-                            id nisi lectus at..</p>
-                        <div class="card-actions ">
-                            <button class="btn text-white bg-bike-primary">Read More</button>
+                <div>
+                    <!-- -------------------------second Card----------------------------------- -->
+                    <div class="card bg-white shadow-xl">
+                        <figure>
+                            <img src="/images/others/latest2.png " alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-3xl  text-black">Motorcycles & Scooters</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at..</p>
+                            <div class="card-actions ">
+                                <button class="btn text-white bg-bike-primary">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <!-- -------------------------Thard Card----------------------------------- -->
+                    <div class="card bg-white shadow-xl">
+                        <figure>
+                            <img src="/images/others/latest3.png " alt="Shoes" />
+                        </figure>
+                        <div class="card-body">
+                            <h2 class="card-title text-3xl  text-black">2021 Honda CBR500R</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus
+                                sed
+                                id nisi lectus at.</p>
+                            <div class="card-actions ">
+                                <button class="btn text-white bg-bike-primary">Read More</button>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div>
-                <!-- -------------------------Thard Card----------------------------------- -->
-                <div class="card bg-base-100 shadow-xl">
-                    <figure>
-                        <img src="/images/others/latest3.png " alt="Shoes" />
-                    </figure>
-                    <div class="card-body">
-                        <h2 class="card-title text-3xl">2021 Honda CBR500R</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed
-                            id nisi lectus at.</p>
-                        <div class="card-actions ">
-                            <button class="btn text-white bg-bike-primary">Read More</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
 
     </main>
